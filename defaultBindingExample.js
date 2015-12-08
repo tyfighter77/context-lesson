@@ -1,9 +1,13 @@
+var sushi;
+
 function makeSushi(){
   this.sushi = "California Roll"
 }
 
+makeSushi();
+
 console.log(sushi);
 
-window.timeout(function(){
+setTimeout(function(){
   this.moreSushi = "Vegas Roll"
 }, 1000)
