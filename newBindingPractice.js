@@ -8,6 +8,7 @@
     - a function to use the super power
 */
 
+
 var SuperHero = function(name, power, battleCry){
   this.name = name;
   this.power = power;

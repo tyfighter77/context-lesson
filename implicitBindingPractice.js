@@ -10,6 +10,7 @@
 */
 
 var hotel = {
+
   roomPrice: 30,
   calcPrice: function(nights, gratuity){
     return (this.roomPrice * nights) + gratuity;
