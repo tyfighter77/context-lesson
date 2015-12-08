@@ -6,3 +6,6 @@
 
 
 */
+var makeSammich = function() {
+  this.sammichName = "hammy cheese";
+};
